@@ -66,6 +66,9 @@
             .grid {
                 grid-template-columns: 1fr 1fr;
             }
+            .full-width {
+                grid-column: 1 / -1;
+            }
         }
 
         .card {
@@ -122,8 +125,51 @@
         }
 
         .gallery {
-            grid-column: 1 / -1;
             text-align: center;
+        }
+
+        /* Naye classes images ke liye */
+        .photo-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .photo-grid img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            border: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+        .photo-grid img:hover {
+            border-color: var(--accent-blue);
+            transform: scale(1.05);
+        }
+
+        /* Naya Button CSS */
+        .btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 10px 25px;
+            background-color: transparent;
+            color: var(--accent-blue);
+            text-decoration: none;
+            border: 2px solid var(--accent-blue);
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-blue);
+            color: #000;
+            box-shadow: 0 0 15px var(--accent-blue);
         }
 
         footer {
@@ -176,15 +222,37 @@
                 </ul>
             </div>
 
-            <div class="card gallery">
+            <div class="card full-width gallery">
+                <h2>Hardware Build Process</h2>
+                <p style="color: var(--text-muted);">Real photos of upcycling e-waste into the MVP.</p>
+                <div class="photo-grid">
+                    <img src="file:///C:/Users/jivak/Downloads/Day%201%20of%20Coders%20Lamp%20Project" alt="Hardware Image 1">
+                    <img src="file:///C:/Users/jivak/Downloads/Day%201%20of%20Coders%20Lamp%20Project%20(Photo%202).jpg" alt="Hardware Image 2">
+                    <img src="file:///C:/Users/jivak/Downloads/3rd.jpg" alt="MVP">
+                </div>
+            </div>
+
+            <div class="card full-width">
+                <h2>Phase 2: The Future Upgrade</h2>
+                <p>Currently, this is an MVP made from 100% e-waste. But my vision for Phase 2 is to upgrade this into a <strong>Professional Room Projection Lamp</strong>.</p>
+                <br>
+                <ul>
+                    <li><strong>RGB Crystal Projection:</strong> Upgrading the light node to a lens projector (like commercial room decor lamps) to spread focus-enhancing spectrums across the ceiling.</li>
+                    <li><strong>Psychology & Mode Shifting:</strong> Using a Raspberry Pi Pico to create different light profiles. A "Deep Work" mode for coding, and a relaxing mode for winding down.</li>
+                    <li><strong>Total Portability:</strong> Adding a 18650 Li-ion battery so coders can work anywhere, even during long power cuts in rural areas.</li>
+                </ul>
+                <div style="text-align: center;">
+                    <a href="https://github.com/jivak07/coders-peace-lamp" class="btn" target="_blank">View GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="card full-width gallery">
                 <h2>Project MVP & Live Demo video</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Visual proof of structural hardware modifications and working prototype.(Notes:- Due to big size of video it can take more time to load)</p>
                 
                 <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center;">
                     <div style="width: 100%; max-width: 650px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 12px;">
-                        <video controls autoplay loop muted style="width: 100%; border-radius: 8px; border: 2px solid var(--accent-blue); box-shadow: 0 0 20px #33afc2f5; display: block;">
-                            <source src="file:///C:/Users/jivak/Downloads/video.mp4" type="video/mp4">
-                        </video>
+                        <img src="file:///C:/Users/jivak/Downloads/Hardware_Project-removebg-preview.png" alt="Project MVP Image" style="width: 100%; border-radius: 8px; border: 2px solid var(--accent-blue); box-shadow: 0 0 20px #33afc2f5; display: block;">
                     </div>
                 </div>
             </div>
