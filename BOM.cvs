@@ -1,6 +1,18 @@
-Item,Quantity,Price (INR),Link
-Raspberry Pi Pico H Microcontroller,1,650,https://www.amazon.in/dp/B0B7MS66D7
-TP4056 Li-Ion Battery Charger Module,2,150,https://www.amazon.in/dp/B08XMB8C99
-18650 Rechargeable Battery 2500mAh,1,300,https://www.amazon.in/dp/B098X8K7B6
-5V Blue LED Strip Light (1 Meter),1,250,https://www.amazon.in/dp/B08Y8R6Y78
-25W Soldering Iron Kit with Wire and Flux,1,450,https://www.amazon.in/dp/B07R9V6H3Z
+#coder-peace-lamp
+
+Things which I already Have :-
+Upcycled Earbud Charging Dock PCB (XSD-M19-TPC),1,0,Salvaged from broken electronics,Current power logic base = $0
+Direct 5V Blue-Spectrum LED Capsule,1,0,Salvaged E-Waste,Current basic light emitter = $0
+Upcycled Micro Ribbon-Connector Matrix,1,0,Salvaged E-Waste,Internal structural support = $0 
+Tethered USB Power Cables,1,0,Salvaged E-Waste,Current laptop connectivity link = $0
+
+Parts which I need:- 
+Raspberry Pi Pico H Microcontroller,1,650,For dynamic light shifting & programming user modes = $7.80
+RGB Crystal Projector Lens & LED Assembly,1,499,To get FABLOFT room-projection effect = $6.00
+TP4056 Li-Ion Battery Charger Board with Protection,2,150,For safe standalone portability & charging circuitry = $1.80
+18650 Rechargeable Li-ion Battery (2500mAh),1,300To work anywhere anytime without direct electricity = $3.60
+Matte Black Cylindrical ABS Enclosure Box,1,220,For professional customer-usable casing body = $2.65
+Push Button Switches & Rotary Encoder,1,180,To manually shift modes based on user psychology = $2.15
+25W Soldering Iron Starter Kit (Wire + Flux),1,450,Essential tool to assemble final reliable connections = $5.40
+
+Total Cost in USD: ~$29.40 (Aproxx $30 Dollars)
