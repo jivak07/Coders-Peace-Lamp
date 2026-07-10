@@ -1,16 +1,45 @@
-# coders-peace-lamp
-'Caders Peace Lamp' is a hardware device which is developed using waste. 
-I knows that I didn't build anything innovative but I created that things which will makes innovators!
-Coders Peace Lamp is maded for specially those who work in late nights and who needs more productivity. In present time everyone need more productivity and this lamp will help when there is no electricity but also this lamp will boost their productvity and boosting productivity of professionals or even coders is equals to boosting world future. 
-Story:- I though that I also need to be create something creative but here was the problem that I belong to Indian Farmers family and I can't bought things to create hardware project. After some time while cleaning my room I seen my some old waste gadgets/hardware components and then I think let's see what I can build from this and I got this Idea. 
-There are some negative points also of this light:- 1. In night time Suppresses melatonin release which causes difficult in sleep, 2. This light can causes blurry vision, dry eyes, headaches
-But still why I choose blue light because of some reasons :- 1. On that time I had only white and Blue light , 2. The human cornea and lens cannot block blue light, meaning it passes straight to the retina, 3. Increases energy, 4. In Day blue ligh is more helpful like:- Boosts daytime alertness, sharpens reaction times, boosts brain function, improves mood. 
-Incase if I get funding or hardwares so well I can make this Lamp more good using psychology (by the way I have good knowledge of psychology). 
-Right now coders peace lamp's prototype is 100% ready. 
+# Coders Peace Lamp
 
-This is how final product will look, here is MVP design (To save amy time I used litle bit AI here):- https://github.com/jivak07/coders-peace-lamp/blob/main/Coders%20Peace%20Lamp%20%20%E2%80%94%20Final%20Design%20(Market%20Ready).pdf
+Coders Peace Lamp is a hardware device built using waste. I know I didn't build anything innovative, but I created something that will make innovators!
 
-https://github.com/jivak07/coders-peace-lamp/tree/main/images-while-working-on-project This is my daily work proof pictures/photos. Also I wrote my journal for extra. 
+## What's built right now (working prototype)
 
-Visit site (also here i added final design of coders-peace-lamp):-  https://jivak07.github.io/coders-peace-lamp/
+I found old waste gadgets/components while cleaning my room, and used them to build this lamp:-
 
+upcycled PCB, removed from an old earbud charging dock
+blue focus light (5V LED capsule) connected to it
+second decoration/strip light — this was already part of the same earbud dock but was broken, so I had thrown it in my storage box. I got a micro ribbon-connector from a friend to reconnect it.
+The dock has two ports — Input and Output. The strip light connects to Output, and a USB power cable connects to Input, which plugs into a laptop, adapter, or power bank.
+
+It's tested and working 100%.
+
+## Why I built this
+
+I belong to an Indian farmer family and couldn't buy parts to build a hardware project. While cleaning my room, I found old waste gadgets and thought — let's see what I can build from this. This whole product is made from waste materials.
+
+Coders Peace Lamp is made especially for those who work late nights and need more productivity. It also helps when there's no electricity.
+
+## Why blue light
+
+Honestly there are some side effects of it also:- at night it suppresses melatonin (makes sleep harder), and can cause blurry vision, dry eyes, headaches.
+
+still Why I still chose it:- I only had white and blue LEDs available at the time. Also, its increases aesthetics and setup look. During the day, blue light boosts alertness, reaction time, brain function, and mood.
+
+## Present All Top Features:- 
+1. 100% Upcycled E-Waste
+2. Dual USB Plug & Play
+3. Targeted Blue Light
+4. Any Time Anywhere
+5. Melatonin Suppression Control and Energy Increase
+6. Boost Productivity
+7. Makes setup Aesthetic
+
+## What I'm planning next (not built yet) :- 
+
+The current lamp is a simple Prototype. My plan for the next version is a gooseneck lamp with two independently-controlled light zones (a front focus light and a side ambient strip), each cycling through multiple colors via button press, controlled by a small microcontroller, etc.,
+
+Here is journal link with images :- https://github.com/jivak07/coders-peace-lamp/blob/main/JOURNAL.md 
+
+Here is BOM.cvs link :- https://github.com/jivak07/coders-peace-lamp/blob/main/BOM.csv
+
+Here is 3d design (outside design) :- https://github.com/jivak07/coders-peace-lamp/blob/main/3d%20design.stp
