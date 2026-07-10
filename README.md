@@ -43,3 +43,5 @@ Here is journal link with images :- https://github.com/jivak07/coders-peace-lamp
 Here is BOM.cvs link :- https://github.com/jivak07/coders-peace-lamp/blob/main/BOM.csv
 
 Here is 3d design (outside design) :- https://github.com/jivak07/coders-peace-lamp/blob/main/3d%20design.stp
+
+Here is plane design :- <img width="1545" height="892" alt="Coders Peace Lamp - Final Design" src="https://github.com/user-attachments/assets/ed046de6-b16d-46fc-a292-8f380595f841" />
