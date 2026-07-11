@@ -47,6 +47,6 @@ Here is 3d design (outside design) :- https://github.com/jivak07/coders-peace-la
 
 Here are Final Project Images :- <img width="1920" height="1080" alt="Day 3 of Hardware Project (Image 10)" src="https://github.com/user-attachments/assets/935bc06f-0dcc-4a1a-8484-48bf653d907d" />
 <img width="4160" height="3120" alt="Hardware Project" src="https://github.com/user-attachments/assets/7d13d915-3e57-4123-a751-a2574a4f63ad" />
-
+<img width="1920" height="1080" alt="Day 3 of Hardware Project (Image 11)" src="https://github.com/user-attachments/assets/78376104-ed95-4e83-8f82-fed7fc3a62bc" />
 
 Here is plane design :- <img width="1545" height="892" alt="Coders Peace Lamp - Final Design" src="https://github.com/user-attachments/assets/ed046de6-b16d-46fc-a292-8f380595f841" />
